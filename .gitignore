@@ -1,0 +1,20 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Dados (não versionar — baixados/gerados localmente)
+data/raw/
+data/processed/
+
+# Modelos treinados (grandes, gerados)
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema / IDE
+.DS_Store
+.vscode/
+.idea/
